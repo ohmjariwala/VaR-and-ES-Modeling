@@ -6,10 +6,13 @@ This project shows how to measure Value at Risk (VaR) and Expected Shortfall (ES
 - Monte Carlo Simulation
 - GARCH (Time-Varying Volatility)
 
+
+
   
 What Are VaR and ES?
   -VaR tells you how much you could lose, with a certain confidence (like 95%), under “normal” conditions.
   -ES (Expected Shortfall) tells you how bad the loss could be on average if you exceed that VaR threshold.
+
 
 
 1. Parametric (Variance-Covariance)
@@ -21,6 +24,8 @@ Combine them with your portfolio weights to find a single overall mean and volat
 Use simple normal distribution formulas to find VaR and ES.
 
 
+
+
 2. Monte Carlo Simulation
 Generates many possible future outcomes by simulating random returns, then checks which outcomes are worst.
 
@@ -30,7 +35,7 @@ Simulate a large number of random return scenarios.
 Sort the simulated returns to find the worst losses for VaR, and then average those losses for ES.
 
 
-4. GARCH (Time-Varying Volatility)
+3. GARCH (Time-Varying Volatility)
 Risk/Vol changes over time. A GARCH model captures those changing ups and downs.
 
 Steps:
